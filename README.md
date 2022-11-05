@@ -58,53 +58,53 @@ The animations can also include a sequence allowing it to activate and deactivat
 <placeable type="myTypeName">
     <animationNodes>
         <!-- USAGE: Mesh and clip part of mod -->
-		<animationNode class="AnimatedPartAnimation" >
-			<clip node="skeletonNode" name="Animation Name" looping="true"/>
-		</animationNode>
-		
-		<!-- USAGE: Mesh part of mod with shared animation file -->
-		<animationNode class="AnimatedPartAnimation" >
-			<clip node="link / mesh node" animationFilename="sharedAnimation.i3d" name="animationName" looping="true"/>
-		</animationNode>
-		
-		<!-- USAGE: Shared mesh and animation files -->
-		<animationNode class="AnimatedPartAnimation" >
-			<clip node="linkNode" characterFilename="baker/baker.i3d" animationFilename="baker/animations/bakerAnimations.i3d" skeletonNode="0|0" name="mixingBowl" looping="true"/>
-		</animationNode>
-		
-		<!-- USAGE: Shared mesh with combined clip file -->
-		<animationNode class="AnimatedPartAnimation" >
-			<clip node="linkNode" characterFilename="dog/guardDogAnimations.i3d" skeletonNode="0|0" name="sittingSource" looping="true"/>
-		</animationNode>
-		
-		<!-- USAGE: Similar to animated object but allows on / off sequence times -->
-		<animationNode class="AnimatedPartAnimation" sequenceOnTime="10" sequenceOffTime="6">
-			<animation duration="3">
-				<part node="node">
-					<keyFrame time="0.0" rotation="0 0 0"/>
-					<keyFrame time="1.0" rotation="0 180 0"/>
-				</part>
-				<part node="node">
-					<keyFrame time="0.0" translation="7.9 1.19 -3.36"/>
-					<keyFrame time="1.0" translation="7.9 3 -3.36"/>
-				</part>
-			</animation>
-		</animationNode>
-		
-		<!-- USAGE: Just like animated object, sounds can be used for moving, start and end -->
-		<animationNode class="AnimatedPartAnimation">
-			<animation duration="0.2">
-				<part node="node">
-					<keyFrame time="0.0" rotation="0 0 0"/>
-					<keyFrame time="1.0" rotation="-80 0 0"/>
-				</part>
-			</animation>
-		
-			<sounds>
-				<posEnd file="filename.ogg" linkNode="node" volume="0.8" radius="25" innerRadius="3" />
-				<negEnd file="filename.ogg" linkNode="node" volume="0.8" radius="25" innerRadius="3" />
-			</sounds>
-		</animationNode>
+        <animationNode class="AnimatedPartAnimation" >
+            <clip node="skeletonNode" name="Animation Name" looping="true"/>
+        </animationNode>
+
+        <!-- USAGE: Mesh part of mod with shared animation file -->
+        <animationNode class="AnimatedPartAnimation" >
+            <clip node="link / mesh node" animationFilename="sharedAnimation.i3d" name="animationName" looping="true"/>
+        </animationNode>
+
+        <!-- USAGE: Shared mesh and animation files -->
+        <animationNode class="AnimatedPartAnimation" >
+            <clip node="linkNode" characterFilename="baker/baker.i3d" animationFilename="baker/animations/bakerAnimations.i3d" skeletonNode="0|0" name="mixingBowl" looping="true"/>
+        </animationNode>
+
+        <!-- USAGE: Shared mesh with combined clip file -->
+        <animationNode class="AnimatedPartAnimation" >
+            <clip node="linkNode" characterFilename="dog/guardDogAnimations.i3d" skeletonNode="0|0" name="sittingSource" looping="true"/>
+        </animationNode>
+
+        <!-- USAGE: Similar to animated object but allows on / off sequence times -->
+        <animationNode class="AnimatedPartAnimation" sequenceOnTime="10" sequenceOffTime="6">
+            <animation duration="3">
+                <part node="node">
+                    <keyFrame time="0.0" rotation="0 0 0"/>
+                    <keyFrame time="1.0" rotation="0 180 0"/>
+                </part>
+                <part node="node">
+                    <keyFrame time="0.0" translation="7.9 1.19 -3.36"/>
+                    <keyFrame time="1.0" translation="7.9 3 -3.36"/>
+                </part>
+            </animation>
+        </animationNode>
+
+        <!-- USAGE: Just like animated object, sounds can be used for moving, start and end -->
+        <animationNode class="AnimatedPartAnimation">
+            <animation duration="0.2">
+                <part node="node">
+                    <keyFrame time="0.0" rotation="0 0 0"/>
+                    <keyFrame time="1.0" rotation="-80 0 0"/>
+                </part>
+            </animation>
+
+            <sounds>
+                <posEnd file="filename.ogg" linkNode="node" volume="0.8" radius="25" innerRadius="3" />
+                <negEnd file="filename.ogg" linkNode="node" volume="0.8" radius="25" innerRadius="3" />
+            </sounds>
+        </animationNode>
     </animationNodes>
 </placeable>
 ```
