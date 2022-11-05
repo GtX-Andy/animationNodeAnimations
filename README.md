@@ -3,10 +3,10 @@
  `Farming Simulator  22`   `Game Version: 1.8.1.0`
 
 ## Usage
-These animations are free for use in any Farming Simulator 22 **Map** , **Placeable** or **Vehicle** mod for both ***Private*** and ***Public*** release.
+These scripts are free for use in any Farming Simulator 22 **Map** , **Placeable** or **Vehicle** mod for both ***Private*** and ***Public*** release.
 
 ## Publishing
-The publishing of these animations when not included in its entirety as part of a **Map** , **Placeable** or **Vehicle** mod is not permitted.
+The publishing of these scripts when not included in its entirety as part of a **Map** , **Placeable** or **Vehicle** mod is not permitted.
 
 ## Modification / Converting
 Only GtX | Andy is permitted to make modifications to this code including but not limited to bug fixes, enhancements or the addition of new features.
@@ -17,7 +17,7 @@ Converting these animation or parts there of to other version of the Farming Sim
 All versioning is controlled by GtX | Andy and not by any other page, individual or company.
 
 ## Documentation
-The following information is required for these animations to operate. `<animationNodes>` must be supported to use these animations.
+The following information is required for these animation scripts to operate. `<animationNodes>` must be supported to use these animations.
 
 Note: Some specializations do not correctly assign the mod custom environment correctly, for example version 1.8.1.0 of the base game **ProductionPoint** does not correctly do this so it must be manually set.
 
@@ -27,7 +27,7 @@ Example: `FS22_MyGreatMod.BeaconLightAnimation` or `FS22_MyGreatMod.AnimatedPart
 
 >### BeaconLightAnimation
 
-It is possible to dynamicly load a beacon light with this animation.
+It is possible to dynamically load a beacon light with this animation.
 
 ```xml
 <modDesc descVersion="71">
