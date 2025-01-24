@@ -5,6 +5,8 @@
 ## Usage
 These scripts are free for use in any Farming Simulator 22 **Map** , **Placeable** or **Vehicle** mod for both ***Private*** and ***Public*** release.
 
+#### &nbsp;&nbsp;&nbsp;&nbsp; - Looking for the [Farming Simulator 25](https://github.com/GtX-Andy/FS25_AnimationNodes) release?
+
 ## Publishing
 The publishing of these scripts when not included in its entirety as part of a **Map** , **Placeable** or **Vehicle** mod is not permitted.
 
